@@ -1,0 +1,158 @@
+.header {
+  width: 100vw;
+  height: 80px;
+  background-color: white;
+  border-top: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  margin-top: 22px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: var(--box-shadow);
+  transition: var(--transition);
+}
+
+.header.active {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+}
+
+.header h1 {
+  position: absolute;
+  left: 160px;
+  top: 16px;
+}
+
+.header img {
+  height: 120px;
+  width: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 32px;
+}
+
+.nav {
+  margin-right: 32px;
+  display: flex;
+}
+
+.nav h3 {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 20px;
+  transition: var(--transition);
+  font-family: "El Messiri", sans-serif;
+  font-weight: 700;
+}
+
+.nav svg {
+  font-size: 32px;
+  color: white;
+  transition: var(--transition);
+}
+
+.about-link {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  position: relative;
+}
+
+.about-link svg {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-link:hover svg {
+  color: var(--primary-color);
+}
+
+.collect-link {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  justify-content: center;
+  position: relative;
+}
+
+.collect-link svg {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.collect-link:hover svg {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  justify-content: center;
+  position: relative;
+}
+
+.contact-link svg {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-link:hover svg {
+  color: var(--secondary-color);
+}
+
+@media only screen and (max-width: 850px) {
+  .header {
+    height: 178px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header.active {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header h1 {
+    position: unset;
+    text-align: center;
+    margin-top: -16px;
+  }
+
+  .header img {
+    position: unset;
+    margin-top: -40px;
+  }
+
+  .nav {
+    margin: 0;
+  }
+
+  .nav h3 {
+    padding: 0;
+    font-size: 17px;
+  }
+
+  .nav svg {
+    bottom: -18px;
+  }
+}

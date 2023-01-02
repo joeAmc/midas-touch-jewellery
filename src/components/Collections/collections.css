@@ -1,0 +1,176 @@
+.collections-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.rings {
+  height: 300px;
+  width: 350px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.rings img {
+  height: 320px;
+  width: auto;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+
+.rings-container:hover .rings img {
+  transform: scale(1.2);
+}
+
+.rings-h1 {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  justify-content: center;
+  transition: all 0.6s;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.rings-h1 svg {
+  position: absolute;
+  bottom: -14px;
+  font-size: 38px;
+  color: var(--accent-color);
+}
+
+.necklaces {
+  height: 300px;
+  width: 350px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.necklaces img {
+  height: 320px;
+  width: auto;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+
+.necklaces-container:hover .necklaces img {
+  transform: scale(1.2);
+}
+
+.necklaces-h1 {
+  display: flex;
+  flex-direction: column;
+  opacity: 1;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 16px;
+  margin-top: 26px;
+  transition: all 0.6s;
+}
+
+.necklaces-h1 svg {
+  position: absolute;
+  bottom: -14px;
+  font-size: 38px;
+  color: var(--accent-color);
+}
+
+.earrings {
+  height: 300px;
+  width: 350px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.earrings img {
+  height: 320px;
+  width: auto;
+  cursor: pointer;
+  z-index: -1;
+  transition: all 0.6s;
+}
+
+.earrings-container:hover .earrings img {
+  transform: scale(1.2);
+}
+
+.earring-h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-top: 8px;
+  transition: all 0.6s;
+}
+
+.earring-h1 svg {
+  position: absolute;
+  bottom: -14px;
+  font-size: 38px;
+  color: var(--accent-color);
+}
+
+@media only screen and (max-width: 850px) {
+  .collections-container {
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+
+  .necklaces {
+    height: auto;
+    width: 300px;
+  }
+
+  .necklaces img {
+    height: auto;
+    width: 320px;
+  }
+  .rings {
+    height: auto;
+    width: 300px;
+  }
+
+  .rings img {
+    height: auto;
+    width: 320px;
+  }
+
+  #collections > div.collections-container > div.earrings-container > a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .earrings {
+    order: 2;
+    height: auto;
+    width: 300px;
+  }
+
+  .earrings img {
+    height: auto;
+    width: 320px;
+    height: 239.672px;
+  }
+
+  .earring-h1 {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    justify-content: center;
+    transition: all 0.6s;
+    position: relative;
+    margin-bottom: 16px;
+    margin-top: 26px;
+  }
+
+  .earring-h1 svg {
+    position: absolute;
+    bottom: -14px;
+    font-size: 38px;
+    color: var(--accent-color);
+  }
+}
