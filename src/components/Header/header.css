@@ -119,28 +119,32 @@
 
 @media only screen and (max-width: 850px) {
   .header {
-    height: 178px;
+    height: 124px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 30px;
   }
 
   .header.active {
-    position: relative;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* margin-bottom: 178px; */
   }
 
   .header h1 {
     position: unset;
     text-align: center;
     margin-top: -16px;
+    font-size: 26px;
   }
 
   .header img {
     position: unset;
     margin-top: -40px;
+    height: 80px;
   }
 
   .nav {
