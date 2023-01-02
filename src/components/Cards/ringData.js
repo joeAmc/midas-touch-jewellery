@@ -8,17 +8,21 @@ import moss1 from "../../assets/rings/green moss 1.jpeg";
 import moss2 from "../../assets/rings/green moss 2.jpeg";
 import moss3 from "../../assets/rings/green moss 3.jpeg";
 import tab1 from "../../assets/rings/tab 1.jpeg";
+import tab2 from "../../assets/rings/tab 2.jpeg";
 import tabtrihoop from "../../assets/rings/tab tri hoop combo.jpeg";
 import saus1 from "../../assets/rings/sausage 1.jpeg";
 import saus2 from "../../assets/rings/sausage 2.jpeg";
+import saus4 from "../../assets/rings/sausage4.jpeg";
+import saus3 from "../../assets/rings/sausage3.jpg";
 import saustrisun from "../../assets/rings/saus tri sun combo.jpeg";
 import sun1 from "../../assets/rings/sun balls 1.jpeg";
+import sun2 from "../../assets/rings/sun balls 2.jpg";
 import clus1 from "../../assets/rings/clus 1.jpeg";
 
 export const rings = [
   {
     id: 1,
-    image: [tri1, tri2, tri3, tri4],
+    image: [tri2, tri1, tri3, tri4],
     title: " Triangular stackable",
     material: "gold filled",
     price: 35,
@@ -26,7 +30,7 @@ export const rings = [
   },
   {
     id: 2,
-    image: [hoop2, trihoop],
+    image: [trihoop, hoop2],
     title: "Large loop",
     material: "gold filled",
     price: 35,
@@ -34,7 +38,7 @@ export const rings = [
   },
   {
     id: 3,
-    image: [moss1, moss2, moss3],
+    image: [moss2, moss1, moss3],
     title: "Green Moss",
     material: "gold filled",
     price: 35,
@@ -42,7 +46,7 @@ export const rings = [
   },
   {
     id: 4,
-    image: [tab1, tabtrihoop],
+    image: [tab2, tab1],
     title: "Silver tab",
     material: "gold filled",
     price: 35,
@@ -50,7 +54,7 @@ export const rings = [
   },
   {
     id: 5,
-    image: [saus1, saus2, saustrisun],
+    image: [saus4, saus3, saus1, saus2, saustrisun],
     title: "Disconnect",
     material: "gold filled",
     price: 35,
@@ -58,7 +62,7 @@ export const rings = [
   },
   {
     id: 6,
-    image: [sun1, saustrisun],
+    image: [sun2, sun1, saustrisun],
     title: "Sunrise",
     material: "gold filled",
     price: 35,
