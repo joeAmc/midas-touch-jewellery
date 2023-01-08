@@ -8,7 +8,7 @@
 
 .rings {
   height: 300px;
-  width: 350px;
+  width: auto;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -43,7 +43,7 @@
 
 .necklaces {
   height: 300px;
-  width: 350px;
+  width: auto;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -79,7 +79,7 @@
 
 .earrings {
   height: 300px;
-  width: 350px;
+  width: auto;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -112,7 +112,7 @@
   color: var(--accent-color);
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1070px) {
   .collections-container {
     justify-content: center;
     flex-direction: column;
@@ -172,5 +172,102 @@
     bottom: -14px;
     font-size: 38px;
     color: var(--accent-color);
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .collections-container {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .earrings {
+    height: 260px;
+    width: auto;
+  }
+
+  .earrings img {
+    height: 280px;
+    width: auto;
+  }
+  .rings {
+    height: 260px;
+    width: auto;
+  }
+
+  .rings img {
+    height: 280px;
+    width: auto;
+  }
+  .necklaces {
+    height: 260px;
+    width: auto;
+  }
+
+  .necklaces img {
+    height: 280px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 1070px) and (min-width: 851px) {
+  .earrings {
+    height: 550px;
+    width: 550px;
+  }
+
+  .earrings img {
+    height: 550px;
+    width: 550px;
+  }
+  .rings {
+    height: 550px;
+    width: 550px;
+  }
+
+  .rings img {
+    height: 550px;
+    width: 550px;
+  }
+  .necklaces {
+    height: 550px;
+    width: 550px;
+  }
+
+  .necklaces img {
+    height: 550px;
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 850px) and (min-width: 481px) {
+  .earrings {
+    height: 400px;
+    width: 400px;
+  }
+
+  .earrings img {
+    height: 400px;
+    width: 400px;
+  }
+  .rings {
+    height: 400px;
+    width: 400px;
+  }
+
+  .rings img {
+    height: 400px;
+    width: 400px;
+  }
+  .necklaces {
+    height: 400px;
+    width: 400px;
+  }
+
+  .necklaces img {
+    height: 400px;
+    width: 400px;
   }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import "../Collections/collections.css";
 import { Link } from "react-router-dom";
 import Ring from "../../assets/rings/tri stack2.jpg";
-import Earring from "../../assets/rings/midas earrings.jpg";
+import Cubes from "../../assets/rings/cubes.jpg";
 import { BsThreeDots } from "react-icons/bs";
 
 const Collections = () => {
@@ -29,14 +29,14 @@ const Collections = () => {
               <BsThreeDots />
             </div>
             <div className="rings">
-              <img onClick={scrollTop} src={Ring} alt="" />
+              <img onClick={scrollTop} src={Cubes} alt="" />
             </div>
           </Link>
         </div>
         <div className="earrings-container">
           <Link to="/earrings">
             <div className="earrings">
-              <img onClick={scrollTop} src={Earring} alt="" />
+              <img onClick={scrollTop} src={Cubes} alt="" />
             </div>
             <div className="earring-h1">
               <h1 onClick={scrollTop}>Earrings</h1>
@@ -51,7 +51,7 @@ const Collections = () => {
               <BsThreeDots />
             </div>
             <div className="necklaces">
-              <img onClick={scrollTop} src={Ring} alt="" />
+              <img onClick={scrollTop} src={Cubes} alt="" />
             </div>
           </Link>
         </div>
