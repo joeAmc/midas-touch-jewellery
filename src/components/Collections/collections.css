@@ -278,8 +278,8 @@
   }
 }
 
-/* @media (max-width: 850px) {
-  .collections-container {
-    margin-top: 70px;
+@media (max-width: 850px) {
+  .about-text {
+    margin-bottom: 0px;
   }
-} */
+}

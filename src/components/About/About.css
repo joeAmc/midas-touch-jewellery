@@ -74,10 +74,7 @@
   }
   .about-text {
     width: 400px;
-    /* position: relative; */
     background-color: rgba(255, 255, 255, 1);
-    /* border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow); */
     padding: 0px;
   }
 
@@ -100,6 +97,9 @@
   .about-img .img3 {
     left: 0px;
     top: -236px;
+  }
+  .about-text p {
+    margin-bottom: 32px;
   }
 }
 
