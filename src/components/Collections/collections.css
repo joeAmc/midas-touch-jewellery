@@ -186,6 +186,7 @@
   .earrings {
     height: 260px;
     width: auto;
+    margin-bottom: 32px;
   }
 
   .earrings img {
@@ -195,6 +196,7 @@
   .rings {
     height: 260px;
     width: auto;
+    margin-bottom: 32px;
   }
 
   .rings img {
@@ -204,6 +206,7 @@
   .necklaces {
     height: 260px;
     width: auto;
+    margin-bottom: 32px;
   }
 
   .necklaces img {
@@ -214,8 +217,9 @@
 
 @media only screen and (max-width: 1070px) and (min-width: 851px) {
   .earrings {
-    height: 550px;
+    height: 400px;
     width: 550px;
+    /* margin-bottom: 32px; */
   }
 
   .earrings img {
@@ -223,8 +227,9 @@
     width: 550px;
   }
   .rings {
-    height: 550px;
+    height: 400px;
     width: 550px;
+    /* margin-bottom: 32px; */
   }
 
   .rings img {
@@ -232,8 +237,9 @@
     width: 550px;
   }
   .necklaces {
-    height: 550px;
+    height: 400px;
     width: 550px;
+    /* margin-bottom: 32px; */
   }
 
   .necklaces img {
@@ -271,3 +277,9 @@
     width: 400px;
   }
 }
+
+/* @media (max-width: 850px) {
+  .collections-container {
+    margin-top: 70px;
+  }
+} */

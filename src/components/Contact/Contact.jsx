@@ -34,16 +34,11 @@ const Contact = () => {
             <h1>Contact us</h1>
             <BsThreeDots />
           </div>
-          <input
-            type="text"
-            name="name"
-            placeholder="Your full name"
-            required
-          />
+          <input type="text" name="name" placeholder="Your name" required />
           <input type="text" name-="email" placeholder="Your email" required />
           <textarea
             name="message"
-            id=""
+            id="message"
             cols="30"
             rows="6"
             placeholder="Enter a message"
@@ -57,4 +52,5 @@ const Contact = () => {
     </section>
   );
 };
+
 export default Contact;

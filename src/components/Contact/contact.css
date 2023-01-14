@@ -1,6 +1,5 @@
 form {
   width: 550px;
-  /* padding: 2rem; */
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -36,10 +35,13 @@ textarea {
   font-size: 1.1rem;
 }
 
+#message {
+  height: 280px;
+}
+
 .form-h1 {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   position: relative;
   width: 154px;
